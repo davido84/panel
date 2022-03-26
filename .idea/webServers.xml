@@ -9,6 +9,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="760a209e-00f6-42e4-8b80-31e6d6396742" name="Live duivp.org" url="http://ftp.dto3.com">
+        <fileTransfer host="ftp.dto3.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
