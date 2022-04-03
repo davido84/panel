@@ -4,13 +4,17 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://duivp.org/</loc>
+        <loc>https://www.duivp.org/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://duivp.org/contact.html</loc>
+        <loc>https://www.duivp.org/contact.html</loc>
         <changefreq>monthly</changefreq></url>
     <url>
-        <loc>http://duivp.org/privacy-policy.html</loc>
+        <loc>https://www.duivp.org/privacy-policy.html</loc>
         <changefreq>monthly</changefreq></url>
+    <url>
+    <loc>https://www.duivp.org/alcohol-information-school.html</loc>
+    <changefreq>monthly</changefreq></url>
+
 </urlset>
