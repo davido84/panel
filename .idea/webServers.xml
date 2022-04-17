@@ -16,6 +16,9 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="025b0b54-23a4-4198-9592-baceec1b84af" name="Local" url="http://localhost:63342 ">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
     </option>
   </component>
 </project>
