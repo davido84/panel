@@ -8,7 +8,7 @@ const allPanelDates=[
     new Date(2022, 4, 7, panelClassStartTime),
     new Date(2022, 4, 21, panelClassStartTime),
     new Date(2022, 5, 11, panelClassStartTime),
-    new Date(2022, 5, 21, panelClassStartTime),
+    new Date(2022, 5, 25, panelClassStartTime),
     new Date(2022, 6,9, panelClassStartTime),
     new Date(2022, 6, 23, panelClassStartTime),
     new Date(2022, 7, 6, panelClassStartTime),
