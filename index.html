@@ -1,134 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
     <meta charset="utf-8">
-    <title>King County DUI Victims Panel - Information</title>
+    <title>King County DUI Victims Panel - Information<</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
     <meta name="description" content="Seattle Area DUI Victims Panel, Complete Schedule and Information">
     <meta name="google-site-verification" content="GYuh2zUoSqeNo7cOX9LWUdluO7gvErkSKBDTXVVcCFI">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/custom.css">
 </head>
-<body onload="onClickedHome();">
+<body>
+<!-- top section -->
 <div class="header">
-    <h2>King County DUI Victims Panel <span class='panelYear'></span> Schedule and Information</h2>
-</div>
-
-<div class="row">
-    <nav class="col-1 col-s-1 menu">
-        <ul>
-            <li onclick="window.location.href = './contact.html'">Contact Us</li>
-            <li onclick="window.location.href = './alcohol-information-school.html'">Treatment</li>
-        </ul>
-    </nav>
-
-    <div class="col-2 col-s-3">
-        <h3>King County DUI Victims Panel <span class='panelYear'></span> Schedule and Information</h3>
-        <p>
-            Welcome to the King County <span class='panelYear'></span> DUI Victims Panel! Do you need to attend a Washington State DUI Victim
-            Impact Panel? We're here to help you find the information you're looking for.
-            If your questions are not answered below, please reach out and <a href="./contact.html">contact us</a>.
-        </p>
-        <h3>General Victims Panel Information</h3>
-        <p>
-            Due to COVID-19, the King County DUI Victims Panel is only conducting court approved panels online via ZOOM.
-            We are proudly listed on the
-            <a href="https://wtsc.wa.gov/victim-impact-panels/">Washington State Impact Panel Registry</a>
-        </p>
-        <p>
-            The cost of the class is <span class="classCost"></span>. We accept all major credit and debit cards.
-        </p>
-        <h3>Online <span class='panelYear'></span> panel dates. You
-            must pre-register by calling <span class="phoneLink"></span> or
-            email us at <span class="emailLink"></span></h3>
-
-        <ol>
-            <li><time id="date0"></time></li>
-            <li><time id="date1"></time></li>
-            <li><time id="date2"></time></li>
-            <li><time id="date3"></time></li>
-            <li><time id="date4"></time></li>
-            <li><time id="date5"></time></li>
-        </ol>
-        <p>
-            The following information should be e-mailed to <span class="emailLink"></span>.
-            A coordinator will follow up with you via email and send you an invoice for the tuition cost of <span class="classCost"></span>.
-        </p>
-
-        <h4>
-            <b>Please Note:</b> You do not need to provide contact information for your court, attorney, or PO.
-            Providing attorney/PO information is <u>completely optional</u>.
-        </h4>
-
-        <ol>
-            <li>The date of the panel you wish to attend</li>
-            <li>First name, middle initial, and last name</li>
-            <li>Email address</li>
-            <li>Date of birth</li>
-            <li>A phone number where you can be reached</li>
-            <li><b>OPTIONAL</b>: The name of the court if you have it, but this is not required</li>
-            <li><b>OPTIONAL</b>: Case number or citation number if you have it, but this is not required.</li>
-            <li><b>OPTIONAL</b>: Contact information your attorney or PO if you have it, but this is not required.
-                Please note: You do not need to provide attorney or PO contact information</li>
-        </ol>
-
-        <h3>Payment information</h3>
-        We use <a href="https://squareup.com/us/en">Square</a> payment systems to send you an
-        invoice for the panel tuition. Square payments offer several ways to pay an invoice:
-        with your credit or debit card, Apple Pay, Google Pay.
-
-        <h3>Online Panel Information</h3>
-        The panels will be conducted using <a href="https://zoom.us/">Zoom</a> Online Video Conferencing software.
-        We will send you the meeting invite, which includes all details needed to join the meeting via ZOOM,
-        after we receive payment. The ZOOM software is free to download and used
-        for all participants of the online panel.
-        <p>
-            Here is the link to download <a href="https://zoom.us/">Zoom</a>. Please remember,
-            you only need to sign up for the Basic Plan (which is 100% free).
-        </p>
-
-        <h3>Personal Conduct Information</h3>
-        When you participate in an online panel, the following personal conduct rules apply.
-        Note that we cannot make exceptions to these rules.
-
-        <ul>
-            <li>You must log in to the meeting no later than the published start time</li>
-            <li>You must log in with a computer or cell phone that has a video camera</li>
-            <li>You must be present for the entire duration of the class</li>
-            <li>The camera must be on for the duration of the class</li>
-        </ul>
-        <h3>After you have attended an on-line panel</h3>
-        After you have attended the online panel, we will send an electronic copy of proof of
-        attendance to you.
-        <b>Note that it is your responsibility to provide a copy of your form to the court and/or your attorney.</b>
-
-        <h3>For any other questions,
-            please <span class="emailUs"></span> or call us at <span class="phoneLink"></span>
-        </h3>
-    </div>
-
-    <div class="col-1 col-s-3">
-        <div class="aside"></div>
+    <div class="section">
+        <div class="nav">
+            <a class="button button-primary" href="#">Home</a>
+            <a class="button" href="#">Treatment</a>
+            <a class="button" href="#">About Us</a>
+            <a class="button" href="#">Contact Us</a>
+        </div>
+        <div class="action">
+            <h1>King County DUI Victims Panel</h1>
+            <h2>2022 Schedule and Information</h2>
+            <a href="#" class="button button-primary">Contact Us</a>
+        </div>
     </div>
 </div>
+<!-- info section -->
+<div class="info">
+    <div class="section">
+        <p>Welcome to the King County 2022 DUI Victims Panel!
+            If your question is not answered below please reach out and contact us.</p>
+        <p>Due to the pandemic, the King County DUI Victims Panel is only
+            conducting court approved panels online via ZOOM.
+        We are proudly listed on the Washington State Impact Panel Registry</p>
+        <p>The cost of the class is <span class="panel-cost">$60</span>. We accept all major credit and debit cards.</p>
 
-<div class="footer">
-    <p>Copyright <span class='panelYear'></span> King County DUI Victims Panel<br><a href="./privacy-policy.html">Privacy Policy</a></p>
+    </div>
+    <div class="section boxes">
+        <div> <!-- section 1 -->
+            <h3>Online 2022 class dates</h3>
+            <p>
+                Panel dates go here.
+            </p>
+            <h3>How to register for the class</h3>
+            <p>The following information should be e-mailed to mail@duivp.org.
+                A coordinator will follow up with you via email and send you an invoice for the tuition cost of $60.</p>
+            <p>The panels are conducted using Zoom Online Video Conferencing software. After payment
+                is received we will send you a meeting invite which includes all details needed to join the
+                meeting via ZOOM. The ZOOM software is free to download and used for all participants of the online panel.
+                Here is the link to download Zoom. Please remember
+                you only need to sign up for the Basic Plan (which is 100% free).
+            </p>
+            <!-- <p class="more"><a href="#" class="button">More info</a></p> -->
+        </div> <!-- section 2 -->
+        <div>
+            <h2>General Victims Panel Information</h2>
+            <p>The DUI Victims Panel gives you the opportunity to hear real stories of
+                people who have been affected by DUI.
+                Our class is non-judgmental and strictly confidential. We are not here to pass judgements.
+                We want to give you an opportunity to hear the consequences of DUI before it’s too late.</p>
+            <h3>Personal Conduct Information</h3>
+            <p>When you participate in an online panel, the following personal conduct rules apply.
+                Note that we cannot make exceptions to these rules.
+            <ul>
+                <li>You must log in to the meeting no later than the published start time</li>
+                <li>You must log in with a computer or cell phone that has a video camera</li>
+                <li>You must be present for the entire duration of the class</li>
+                <li>Your camera must be on for the duration of the class</li>
+
+            </ul>
+            </p>
+            <h3>After you have attended an on-line panel</h3>
+            <p>After you have attended the online panel, we will send an electronic copy of proof of attendance to you.
+                Note that it is your responsibility to provide a copy of your form to the court and/or your attorney.</p>
+
+            <!-- <p class="more"><a href="#" class="button">More info</a></p> -->
+        </div>
+        <div> <!-- section 3 -->
+            <h2>About The DUI Victims Panel</h2>
+            <p>
+                The Seattle King County DUI Victims Panel helps you take responsibility for your actions in a
+                non-judgmental forum. We give you the opportunity to hear the stories of real victims of drunk driving,
+                giving you a new perspective on your DUI case that you may not get elsewhere in the legal system.
+            </p>
+            <p class="about-us-heading>">We are Non-Judgemental</p>
+            <p>
+                Our program is non-judgmental and strictly confidential. We understand that everyone makes mistakes.
+                Rest assured that we are not here to judge. We are here to help you understand the potential
+                consequences of DUI before you are involved in a serious accident.
+            <p>
+                You may have thought that getting a DUI was the worst thing that could have happened,
+                but when you hear the stories of real victims of drunk driving crashes, we hope that you will
+                see your DUI as a life-changing experience that will inspire you to change your life for the better.
+            </p>
+            <p>
+                It is our hope that listening to the stories of real DUI victims will change your life,
+                and you will never again drink and drive. We are here to help you reconsider the
+                direction that your life is headed, so that you never drink and drive again.
+            </p>
+            <!-- <p class="more"><a href="#" class="button">More info</a></p> -->
+        </div>
+    </div>
 </div>
-<script src="panel.js"></script>
-<!-- Default Statcounter code for DUI Victims Panel
-http://www.duivp.org -->
-<script>
-    var sc_project=6235395;
-    var sc_invisible=1;
-    var sc_security="3270cbc8";
-</script>
-<script src="https://www.statcounter.com/counter/counter.js"
-        async></script>
-<noscript><div class="statcounter"><a title="Web Analytics"
-                                      href="https://statcounter.com/" target="_blank"><img
-        class="statcounter"
-        src="https://c.statcounter.com/6235395/0/3270cbc8/1/"
-        alt="Web Analytics"
-        referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-<!-- End of Statcounter Code -->
+<!-- footer -->
+<div class="footer section">
+    <div class="copyright">
+        <p>© King Count DUI Victims Panel, 2022.</p>
+    </div>
+    <!--
+    <div class="signup">
+        <form class="container">
+            <label for="exampleEmailInput">Sign up for our newsletter</label>
+            <input type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+            <input class="button-primary" type="submit" value="Submit">
+        </form>
+    </div>
+    -->
+</div>
 </body>
+</html>
