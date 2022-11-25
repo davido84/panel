@@ -53,7 +53,7 @@ const asideText = `
     </p>`;
 
 const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-const monthNames = ['Jan','Fed', 'Mar', 'Apr', 'May', 'June','July','Aug','Sept','Oct', 'Nov', 'Dec'];
+const monthNames = ['Jan','Feb', 'Mar', 'Apr', 'May', 'June','July','Aug','Sept','Oct', 'Nov', 'Dec'];
 
 function nextPanelDates(numDates) {
     const today = new Date();
