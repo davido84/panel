@@ -26,6 +26,8 @@ const allPanelDates=[
     new Date(2023, 0, 28, panelClassStartTime),
     new Date(2023, 1, 11, panelClassStartTime),
     new Date(2023, 1, 25, panelClassStartTime),
+    new Date(2023, 2, 11, panelClassStartTime),
+    new Date(2023, 2, 25, panelClassStartTime),
 ];
 
 const asideText = `
