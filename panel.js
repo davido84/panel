@@ -2,32 +2,32 @@ const thisPanelYear = new Date().getFullYear();
 const panelCost = '$60';
 const panelClassStartTime = 10;
 
+const JAN=0;
+const FEB=1;
+const MAR=2;
+const APR=3;
+const MAY=4;
+const JUN=5;
+const JUL=6;
+const AUG=7;
+const SEP=8;
+const OCT=9;
+const NOV=10;
+const DEC=11;
+
 const allPanelDates=[
-    new Date(2022, 3, 16, panelClassStartTime),
-    new Date(2022, 3, 23, panelClassStartTime),
-    new Date(2022, 4, 7, panelClassStartTime),
-    new Date(2022, 4, 21, panelClassStartTime),
-    new Date(2022, 5, 11, panelClassStartTime),
-    new Date(2022, 5, 25, panelClassStartTime),
-    new Date(2022, 6,9, panelClassStartTime),
-    new Date(2022, 6, 23, panelClassStartTime),
-    new Date(2022, 7, 6, panelClassStartTime),
-    new Date(2022, 7, 20, panelClassStartTime),
-    new Date(2022, 8, 3, panelClassStartTime),
-    new Date(2022, 8, 17, panelClassStartTime),
-    new Date(2022, 9, 1, panelClassStartTime),
-    new Date(2022, 9, 22, panelClassStartTime),
-    new Date(2022, 9, 29, panelClassStartTime),
-    new Date(2022, 10,12,panelClassStartTime),
-    new Date(2022, 10,26, panelClassStartTime),
-    new Date(2022, 11,10, panelClassStartTime),
-    new Date(2022,11,31, panelClassStartTime),
-    new Date(2023, 0, 14, panelClassStartTime),
-    new Date(2023, 0, 28, panelClassStartTime),
-    new Date(2023, 1, 11, panelClassStartTime),
-    new Date(2023, 1, 25, panelClassStartTime),
-    new Date(2023, 2, 11, panelClassStartTime),
-    new Date(2023, 2, 25, panelClassStartTime),
+    new Date(2023, JAN, 14, panelClassStartTime),
+    new Date(2023, JAN, 28, panelClassStartTime),
+    new Date(2023, FEB, 11, panelClassStartTime),
+    new Date(2023, FEB, 25, panelClassStartTime),
+    new Date(2023, MAR, 11, panelClassStartTime),
+    new Date(2023, MAR, 25, panelClassStartTime),
+    new Date(2023, APR, 8, panelClassStartTime),
+    new Date(2023, APR, 22, panelClassStartTime),
+    new Date(2023, MAY, 6, panelClassStartTime),
+    new Date(2023, MAY, 20, panelClassStartTime),
+    new Date(2023, JUN, 3, panelClassStartTime),
+    new Date(2023, JUN, 17, panelClassStartTime),
 ];
 
 const asideText = `
