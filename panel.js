@@ -28,6 +28,20 @@ const allPanelDates=[
     new Date(2023, MAY, 20, panelClassStartTime),
     new Date(2023, JUN, 3, panelClassStartTime),
     new Date(2023, JUN, 17, panelClassStartTime),
+    new Date(2023, JUL, 1, panelClassStartTime),
+    new Date(2023, JUL, 15, panelClassStartTime),
+    new Date(2023, JUL, 29, panelClassStartTime),
+    new Date(2023, AUG, 12, panelClassStartTime),
+    new Date(2023, AUG, 26, panelClassStartTime),
+    new Date(2023, SEP, 9, panelClassStartTime),
+    new Date(2023, SEP, 23, panelClassStartTime),
+    new Date(2023, OCT, 7, panelClassStartTime),
+    new Date(2023, OCT, 21, panelClassStartTime),
+    new Date(2023, NOV, 4, panelClassStartTime),
+    new Date(2023, NOV, 18, panelClassStartTime),
+    new Date(2023, DEC, 2, panelClassStartTime),
+    new Date(2023, DEC, 16, panelClassStartTime),
+    new Date(2023, DEC, 30, panelClassStartTime),
 ];
 
 const asideText = `
