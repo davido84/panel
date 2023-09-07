@@ -1,5 +1,5 @@
 const thisPanelYear = new Date().getFullYear();
-const panelCost = '$60';
+const panelCost = '$80';
 const panelClassStartTime = 10;
 
 const JAN=0;
@@ -16,8 +16,6 @@ const NOV=10;
 const DEC=11;
 
 const allPanelDates=[
-    new Date(2023, JAN, 14, panelClassStartTime),
-    new Date(2023, JAN, 28, panelClassStartTime),
     new Date(2023, FEB, 11, panelClassStartTime),
     new Date(2023, FEB, 25, panelClassStartTime),
     new Date(2023, MAR, 11, panelClassStartTime),
@@ -42,6 +40,8 @@ const allPanelDates=[
     new Date(2023, DEC, 2, panelClassStartTime),
     new Date(2023, DEC, 16, panelClassStartTime),
     new Date(2023, DEC, 30, panelClassStartTime),
+    new Date(2024, JAN, 13, panelClassStartTime),
+    new Date(2024, JAN, 27, panelClassStartTime),
 ];
 
 const asideText = `
