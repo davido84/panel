@@ -16,10 +16,6 @@ const NOV=10;
 const DEC=11;
 
 const allPanelDates=[
-    new Date(2023, FEB, 11, panelClassStartTime),
-    new Date(2023, FEB, 25, panelClassStartTime),
-    new Date(2023, MAR, 11, panelClassStartTime),
-    new Date(2023, MAR, 25, panelClassStartTime),
     new Date(2023, APR, 8, panelClassStartTime),
     new Date(2023, APR, 22, panelClassStartTime),
     new Date(2023, MAY, 6, panelClassStartTime),
@@ -42,6 +38,10 @@ const allPanelDates=[
     new Date(2023, DEC, 30, panelClassStartTime),
     new Date(2024, JAN, 13, panelClassStartTime),
     new Date(2024, JAN, 27, panelClassStartTime),
+    new Date(2024, FEB, 10, panelClassStartTime),
+    new Date(2024, FEB, 24, panelClassStartTime),
+    new Date(2024, MAR, 9, panelClassStartTime),
+    new Date(2024, MAR, 23, panelClassStartTime),
 ];
 
 const asideText = `
