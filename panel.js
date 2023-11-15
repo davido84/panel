@@ -42,6 +42,13 @@ const allPanelDates=[
     new Date(2024, FEB, 24, panelClassStartTime),
     new Date(2024, MAR, 9, panelClassStartTime),
     new Date(2024, MAR, 23, panelClassStartTime),
+    new Date(2024, APR, 6, panelClassStartTime),
+    new Date(2024, APR, 20, panelClassStartTime),
+    new Date(2024, MAY, 4, panelClassStartTime),
+    new Date(2024, MAY, 18, panelClassStartTime),
+    new Date(2024, JUN, 1, panelClassStartTime),
+    new Date(2024, JUN, 15, panelClassStartTime),
+    new Date(2024, JUN, 29, panelClassStartTime),
 ];
 
 const asideText = `
