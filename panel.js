@@ -16,16 +16,6 @@ const NOV=10;
 const DEC=11;
 
 const allPanelDates=[
-    new Date(2024, JAN, 13, panelClassStartTime),
-    new Date(2024, JAN, 27, panelClassStartTime),
-    new Date(2024, FEB, 10, panelClassStartTime),
-    new Date(2024, FEB, 24, panelClassStartTime),
-    new Date(2024, MAR, 9, panelClassStartTime),
-    new Date(2024, MAR, 23, panelClassStartTime),
-    new Date(2024, APR, 6, panelClassStartTime),
-    new Date(2024, APR, 20, panelClassStartTime),
-    new Date(2024, MAY, 4, panelClassStartTime),
-    new Date(2024, MAY, 18, panelClassStartTime),
     new Date(2024, JUN, 1, panelClassStartTime),
     new Date(2024, JUN, 15, panelClassStartTime),
     new Date(2024, JUN, 29, panelClassStartTime),
@@ -42,6 +32,19 @@ const allPanelDates=[
     new Date(2024, NOV, 30, panelClassStartTime),
     new Date(2024, DEC, 14, panelClassStartTime),
     new Date(2024, DEC, 28, panelClassStartTime),
+    new Date(2025, JAN, 11, panelClassStartTime),
+    new Date(2025, JAN, 25, panelClassStartTime),
+    new Date(2025, FEB, 8, panelClassStartTime),
+    new Date(2025, FEB, 22, panelClassStartTime),
+    new Date(2025, MAR, 8, panelClassStartTime),
+    new Date(2025, MAR, 22, panelClassStartTime),
+    new Date(2025, APR, 5, panelClassStartTime),
+    new Date(2025, APR, 19, panelClassStartTime),
+    new Date(2025, MAY, 3, panelClassStartTime),
+    new Date(2025, MAY, 17, panelClassStartTime),
+    new Date(2025, MAY, 31, panelClassStartTime),
+    new Date(2025, JUN, 14, panelClassStartTime),
+    new Date(2025, JUN, 28, panelClassStartTime),
 ];
 
 const asideText = `
