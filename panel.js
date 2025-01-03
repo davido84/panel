@@ -16,9 +16,6 @@ const NOV=10;
 const DEC=11;
 
 const allPanelDates=[
-    new Date(2024, NOV, 30, panelClassStartTime),
-    new Date(2024, DEC, 14, panelClassStartTime),
-    new Date(2024, DEC, 28, panelClassStartTime),
     new Date(2025, JAN, 11, panelClassStartTime),
     new Date(2025, JAN, 25, panelClassStartTime),
     new Date(2025, FEB, 8, panelClassStartTime),
