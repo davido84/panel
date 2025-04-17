@@ -24,7 +24,7 @@ const allPanelDates=[
     new Date(2025, MAR, 22, panelClassStartTime),
     new Date(2025, APR, 5, panelClassStartTime),
     new Date(2025, APR, 19, panelClassStartTime),
-    new Date(2025, MAY, 3, panelClassStartTime),
+    new Date(2025, MAY, 10, panelClassStartTime),
     new Date(2025, MAY, 17, panelClassStartTime),
     new Date(2025, MAY, 31, panelClassStartTime),
     new Date(2025, JUN, 14, panelClassStartTime),
