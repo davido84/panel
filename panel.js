@@ -16,14 +16,6 @@ const NOV=10;
 const DEC=11;
 
 const allPanelDates=[
-    new Date(2026, JAN, 10, panelClassStartTime),
-    new Date(2026, JAN, 24, panelClassStartTime),
-    new Date(2026, FEB, 7, panelClassStartTime),
-    new Date(2026, FEB, 21, panelClassStartTime),
-    new Date(2026, MAR, 7, panelClassStartTime),
-    new Date(2026, MAR, 21, panelClassStartTime),
-    new Date(2026, APR, 4, panelClassStartTime),
-    new Date(2026, APR, 18, panelClassStartTime),
     new Date(2026, MAY, 2, panelClassStartTime),
     new Date(2026, MAY, 16, panelClassStartTime),
     new Date(2026, MAY, 30, panelClassStartTime),
