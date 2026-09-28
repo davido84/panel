@@ -34,8 +34,8 @@ const allPanelDates=[
     new Date(2026, NOV, 28, panelClassStartTime),
     new Date(2026, DEC, 12, panelClassStartTime),
     new Date(2026, DEC, 26, panelClassStartTime),
-    new Date(2027, JAN, 9, panelClassStartTime),
-    new Date(2027, JAN, 23, panelClassStartTime),
+    //new Date(2027, JAN, 9, panelClassStartTime),
+    //new Date(2027, JAN, 23, panelClassStartTime),
 ];
 
 const asideText = `
@@ -108,7 +108,7 @@ function initPage() {
 
 function onClickedHome() {
     initPage();
-    const numDates = 6;
+    const numDates = 5;
     const nextSixPanelDates = nextPanelDates(numDates);
 
     for (let ii=0; ii < numDates; ++ii)
