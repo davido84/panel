@@ -108,7 +108,7 @@ function initPage() {
 
 function onClickedHome() {
     initPage();
-    const numDates = 5;
+    const numDates = 2;
     const nextSixPanelDates = nextPanelDates(numDates);
 
     for (let ii=0; ii < numDates; ++ii)
